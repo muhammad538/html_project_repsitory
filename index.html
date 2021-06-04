@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+            -webbkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        .container{
+            max-width: 90%;
+            margin: auto;
+            width: 90%;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            list-style: none;
+            background-color: black;
+            margin-bottom: 20px;
+        }
+        .navbar li a{
+            display: block;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            transition: .5s;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: yellow;
+        }
+        .prog-languages{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .prog-languages > img{
+            max-width: 25%;
+        }
+        .persons{
+            display: flex;
+            width: 100%;
+            background-color: tomato;
+            padding: 5px;
+        }
+        .persons > *{
+            width: 18.75%
+        }
+        .persons > :first-child{
+            width: 25%;
+        }
+        .programmers{
+            margin: 20px 0;
+        }
+        .persons{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="python.html">python</a></li>
+            <li><a href="html.html">html</a></li>
+            <li><a href="css.html">css</a></li>
+            <li><a href="javascript.html">javascript</a></li>
+        </ul>
+        <!-- start information -->
+        <h1>programming languages</h1>
+
+        <div class="prog-languages">
+            <img src="imgs/2.png" alt="2">
+            <img src="imgs/3.png" alt="3">
+            <img src="imgs/4.png" alt="4">
+            <img src="imgs/5.png" alt="5">
+        </div>
+        <h2 class="programmers">programmer names</h2>
+        <div class="persons">
+            <div>name : </div>
+            <p>Jaidu Van</p>
+            <p>Tim Berners-Lee</p>
+            <p>Håkon Wium Lie</p>
+            <p>Brendan Eich</p>
+        </div>
+        <h2 class="programmers">programming languages names</h2>
+        <div class="persons">
+            <div>name : </div>
+            <p>python</p>
+            <p>html</p>
+            <p>css</p>
+            <p>javascript</p>
+        </div>
+        <h2 class="programmers"> when were programming languages invented</h2>
+        <div class="persons">
+            <div>year : </div>
+            <p>1991</p>
+            <p>1993</p>
+            <p>1996</p>
+            <p>1995</p>
+            
+        </div>
+    </div>
+</body>
+</html>

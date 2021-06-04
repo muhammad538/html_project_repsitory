@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: sans-serif;
+    }
+    .navbar{
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+            list-style: none;
+            background-color: black;
+        }
+        .navbar li a{
+            display: block;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            transition: .5s;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: yellow;
+        }
+
+    img{
+        max-width: 100%;
+    }
+    h1{
+        padding: 15px 35px;
+        background-color: yellow;
+        width: 300px;
+        margin: 0 auto;
+        transform: translateY(-50%);
+    }
+    h2.year{
+        background-color: black;
+        color: white;
+        width: 400px;
+        padding: 15px 25px;
+        margin: auto;
+    }
+    h2:not(.year){
+        background-color: #bdbdbd;
+        color: white;
+        width: 350px;
+        margin: 0 auto 25px;
+        padding: 15px 25px;
+        
+    }
+    h2:not(.year) span{
+        color: tomato;
+    }
+    h2 span{
+        color: blueviolet;
+    }
+    p{
+        width: 80%;
+        background-color: rgb(230, 230, 230);
+        margin: 20px auto 35px;
+        padding: 15px;
+        line-height: 1.7;
+        font-size: 17px;
+    }
+</style>
+<body>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="python.html">python</a></li>
+        <li><a href="html.html">html</a></li>
+        <li><a href="css.html">css</a></li>
+        <li><a href="javascript.html">javascript</a></li>
+    </ul>
+    <img src="imgs/wp3181445-css-wallpaper-hd.jpg" alt="back">
+    <h1>CSS</h1>
+    <h2>name : <span>Håkon Wium Lie</span></h2>
+    <h2 class="year">year : <span>1996</span></h2>
+    <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+
+        CSS is one of the core languages of the open Web and is standardized across Web browsers according to the W3C specification. Previously development of various parts of CSS specification was done synchroniously, which allowed versioning of the latest recommendation. You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an official version.
+        
+        From CSS3, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became more effective to develop and release recommendations seperately per module. Instead of versioning the CSS specification, W3C now periodically takes a snapshot of the latest stable state of CSS specification.</p>
+</body>
+</html>

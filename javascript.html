@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: sans-serif;
+    }
+    .navbar{
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+            list-style: none;
+            background-color: black;
+        }
+        .navbar li a{
+            display: block;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            transition: .5s;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: yellow;
+        }
+    img{
+        max-width: 100%;
+    }
+    h1{
+        padding: 15px 35px;
+        background-color: yellow;
+        width: 300px;
+        margin: 0 auto;
+        transform: translateY(-50%);
+    }
+    h2.year{
+        background-color: black;
+        color: white;
+        width: 400px;
+        padding: 15px 25px;
+        margin: auto;
+    }
+    h2:not(.year){
+        background-color: #bdbdbd;
+        color: white;
+        width: 350px;
+        margin: 0 auto 25px;
+        padding: 15px 25px;
+        
+    }
+    h2:not(.year) span{
+        color: tomato;
+    }
+    h2 span{
+        color: blueviolet;
+    }
+    p{
+        width: 80%;
+        background-color: rgb(230, 230, 230);
+        margin: 20px auto 35px;
+        padding: 15px;
+        line-height: 1.7;
+        font-size: 17px;
+    }
+</style>
+<body>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="python.html">python</a></li>
+        <li><a href="html.html">html</a></li>
+        <li><a href="css.html">css</a></li>
+        <li><a href="javascript.html">javascript</a></li>
+    </ul>
+    <img src="imgs/js.jpg" alt="back">
+    <h1>Javascript</h1>
+    <h2>name : <span>Brendan Eich</span></h2>
+    <h2 class="year">year : <span>1995</span></h2>
+    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.
+
+        This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about APIs specific to Web pages, please see Web APIs and DOM.
+        
+        The standard for JavaScript is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. On June 17, 2015, ECMA International published the sixth major version of ECMAScript, which is officially called ECMAScript 2015, and was initially referred to as ECMAScript 6 or ES6. Since then, ECMAScript standards are on yearly release cycles. This documentation refers to the latest draft version, which is currently ECMAScript 2020.
+        
+        Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantics, and uses.
+        
+    </p>
+</body>
+</html>
